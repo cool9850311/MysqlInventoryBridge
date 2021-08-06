@@ -101,7 +101,10 @@ public class Inv extends JavaPlugin {
 	    } else if (version.matches("1.16") || version.matches("1.16.1") || version.matches("1.16.2") || version.matches("1.16.3")) {
 	    	is13Server = true;
 	    	return true;
-	    }
+	    }else if (version.matches("1.17") || version.matches("1.17.1") ) {
+			is13Server = true;
+			return true;
+		}
 	    return false;
 	}
 	

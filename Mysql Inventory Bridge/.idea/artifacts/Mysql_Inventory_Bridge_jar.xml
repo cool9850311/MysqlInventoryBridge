@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Mysql Inventory Bridge:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Mysql_Inventory_Bridge_jar</output-path>
+    <root id="archive" name="Mysql Inventory Bridge.jar">
+      <element id="module-output" name="Mysql Inventory Bridge" />
+    </root>
+  </artifact>
+</component>
