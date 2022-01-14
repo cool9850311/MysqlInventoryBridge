@@ -3,6 +3,8 @@
     <output-path>$PROJECT_DIR$/classes/artifacts/Mysql_Inventory_Bridge_jar</output-path>
     <root id="archive" name="Mysql Inventory Bridge.jar">
       <element id="module-output" name="Mysql Inventory Bridge" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/plugin.yml" />
     </root>
   </artifact>
 </component>
