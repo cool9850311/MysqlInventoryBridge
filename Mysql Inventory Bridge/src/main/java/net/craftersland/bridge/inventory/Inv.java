@@ -107,9 +107,12 @@ public class Inv extends JavaPlugin {
 		}else if (version.matches("1.18") || version.matches("1.18.1") ) {
 			is13Server = true;
 			return true;
+		} else { // always true for me
+			is13Server = true;
+			return true;
 		}
 
-	    return false;
+	    // return false;
 	}
 	
 	private void checkDependency() {
